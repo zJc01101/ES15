@@ -1,0 +1,11 @@
+<script type="module">
+    import statistics,{score as sc}  from  './ES15N3.js';
+    let passscore = statistics(sc);
+    let failscore = statistics(sc,'fail');
+    console.log('及格课程如下:');
+    console.log(...passscore);
+
+
+    console.log('不及格课程如下:');
+    console.log(...failscore);
+</script>
